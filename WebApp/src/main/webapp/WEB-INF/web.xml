@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DisplayServlet</servlet-name>
+  	<display-name>DisplayServlet</display-name>
+  	<description>This is a smaple example for a Maven Servlet</description>
+  	<servlet-class>com.denext.DisplayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DisplayServlet</servlet-name>
+  	<url-pattern>/show</url-pattern>
+  </servlet-mapping>
 </web-app>

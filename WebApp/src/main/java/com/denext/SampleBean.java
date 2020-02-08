@@ -23,5 +23,9 @@ public class SampleBean {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
-
+	@Override
+	public String toString() {
+		return "SampleBean [name=" + name + ", account=" + account + ", balance=" + balance + "]";
+	}
+ 
 }
